@@ -23,13 +23,13 @@ namespace vidly
             //);
 
             routes.MapRoute(
-                name: "Customers",
+                name: "Customers Index",
                 url: "Customers/{action}/{id}",
                 defaults: new { controller = "Customer", action = "Index", id = UrlParameter.Optional }
             );
 
             routes.MapRoute(
-                name: "Movies",
+                name: "Movies Index",
                 url: "Movies/{action}/{id}",
                 defaults: new { controller = "Movie", action = "Index", id = UrlParameter.Optional }
             );
