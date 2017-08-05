@@ -80,3 +80,8 @@ C:\Users\Tam\Documents\Projects\vidly\vidly\bin\Microsoft.Owin.Security.Microsof
 C:\Users\Tam\Documents\Projects\vidly\vidly\obj\Debug\vidly.csprojResolveAssemblyReference.cache
 C:\Users\Tam\Documents\Projects\vidly\vidly\obj\Debug\vidly.dll
 C:\Users\Tam\Documents\Projects\vidly\vidly\obj\Debug\vidly.pdb
+C:\Users\Tam\Documents\Projects\vidly\vidly\obj\Debug\vidly.Migrations.InitialModel.resources
+C:\Users\Tam\Documents\Projects\vidly\vidly\obj\Debug\vidly.csproj.GenerateResource.Cache
+C:\Users\Tam\Documents\Projects\vidly\vidly\obj\Debug\vidly.Migrations.AddIsSubscribedToCustomer.resources
+C:\Users\Tam\Documents\Projects\vidly\vidly\obj\Debug\vidly.Migrations.AddMembershipType.resources
+C:\Users\Tam\Documents\Projects\vidly\vidly\obj\Debug\vidly.Migrations.PopulateMembershipTypes.resources
