@@ -86,3 +86,5 @@ C:\Users\Tam\Documents\Projects\vidly\vidly\obj\Debug\vidly.Migrations.AddIsSubs
 C:\Users\Tam\Documents\Projects\vidly\vidly\obj\Debug\vidly.Migrations.AddMembershipType.resources
 C:\Users\Tam\Documents\Projects\vidly\vidly\obj\Debug\vidly.Migrations.PopulateMembershipTypes.resources
 C:\Users\Tam\Documents\Projects\vidly\vidly\obj\Debug\vidly.Migrations.ApplyAnnotationsToCustomerName.resources
+C:\Users\Tam\Documents\Projects\vidly\vidly\obj\Debug\vidly.Migrations.AddNameToMembershipType.resources
+C:\Users\Tam\Documents\Projects\vidly\vidly\obj\Debug\vidly.Migrations.UpdateMembershipTypeNames.resources
