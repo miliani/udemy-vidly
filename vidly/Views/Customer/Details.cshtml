@@ -1,0 +1,24 @@
+﻿@model vidly.Models.Customer
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>
+    @Model.Name
+    <a href="@Url.Action("Edit", "Customer", new { id = Model.Id }, null)" class="btn btn-primary">
+        Edit <span class="glyphicon glyphicon-pencil"></span>
+    </a>
+</h2>
+<ul>
+    @if (Model.BirthDate != null)
+    {
+        <li>Birth Date: @($"{Model.BirthDate:dd/MM/yyyy}")</li>
+    }
+    <li>
+        Membership Type: @Model.MembershipType.Name
+    </li>
+    <li>Subscribed to newsletter? @Model.IsSubscribedToNewsletter</li>
+</ul>
+

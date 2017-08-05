@@ -1,0 +1,20 @@
+﻿@model vidly.Models.Movie
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>
+    @Model.Name
+    <a href="@Url.Action("Edit", "Movie", new { id = Model.Id }, null)" class="btn btn-primary">
+        Edit <span class="glyphicon glyphicon-pencil"></span>
+    </a>
+</h2>
+
+<ul>
+    <li>Genre: @Model.Genre.Name</li>
+    <li>Release Date: @($"{Model.ReleaseDate:dd/MM/yyyy}")</li>
+    <li>Added Date: @($"{Model.AddedDate:dd/MM/yyyy}")</li>
+    <li>Number in Stock: @Model.NumberInStock</li>
+</ul>
+

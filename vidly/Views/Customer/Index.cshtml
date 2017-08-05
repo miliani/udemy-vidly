@@ -1,0 +1,52 @@
+﻿@model IEnumerable<vidly.Models.Customer>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h2 class="pull-left">Customers</h2>
+
+<div class="pull-right">
+    <br />
+    <a href="@Url.Action("Add", "Customer")" class="btn btn-primary">
+            Add New Customer <span class="glyphicon glyphicon-plus" />
+    </a>
+    <br />
+    <br />
+</div>
+
+@if (!Model.Any())
+{
+    <p>No customers pal</p>
+}
+else
+{
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>Customer Name</th>
+                <th>Membership Type</th>
+                <th>Edit</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var customer in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.ActionLink(customer.Name, "Details", "Customer", new { id = customer.Id }, null)
+                    </td>
+                    <td>
+                        @customer.MembershipType.Name
+                    </td>
+                    <td>
+                        <a href="@Url.Action("Edit", "Customer", new {id = customer.Id}, null)">
+                            <span class="glyphicon glyphicon-pencil" />
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

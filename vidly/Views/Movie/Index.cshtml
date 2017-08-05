@@ -1,0 +1,52 @@
+﻿@model IEnumerable<vidly.Models.Movie>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="pull-left">Movies</h2>
+
+<div class="pull-right">
+    <br />
+    <a href="@Url.Action("Add", "Movie")" class="btn btn-primary">
+        Add New Movie <span class="glyphicon glyphicon-plus" />
+    </a>
+    <br />
+    <br />
+</div>
+
+@if (!Model.Any())
+{
+    <p>No movies pal</p>
+}
+else
+{
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>Movie Name</th>
+                <th>Genre</th>
+                <th>Edit</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var movie in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.ActionLink(movie.Name, "Details", "Movie", new { id = movie.Id }, null)
+                    </td>
+                    <td>
+                        @( movie.Genre == null ? "Unknown" : movie.Genre.Name )
+                    </td>
+                    <td>
+                        <a href="@Url.Action("Edit", "Movie", new {id = movie.Id}, null)">
+                            <span class="glyphicon glyphicon-pencil" />
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
