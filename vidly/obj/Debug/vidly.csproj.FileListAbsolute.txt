@@ -88,3 +88,5 @@ C:\Users\Tam\Documents\Projects\vidly\vidly\obj\Debug\vidly.Migrations.PopulateM
 C:\Users\Tam\Documents\Projects\vidly\vidly\obj\Debug\vidly.Migrations.ApplyAnnotationsToCustomerName.resources
 C:\Users\Tam\Documents\Projects\vidly\vidly\obj\Debug\vidly.Migrations.AddNameToMembershipType.resources
 C:\Users\Tam\Documents\Projects\vidly\vidly\obj\Debug\vidly.Migrations.UpdateMembershipTypeNames.resources
+C:\Users\Tam\Documents\Projects\vidly\vidly\obj\Debug\vidly.Migrations.AddBirthDateToCustomers.resources
+C:\Users\Tam\Documents\Projects\vidly\vidly\obj\Debug\vidly.Migrations.MakeBirthDateNullable.resources
