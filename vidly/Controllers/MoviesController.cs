@@ -30,7 +30,7 @@ namespace vidly.Controllers
                 Customers = customers
             };
 
-            return View(movie);
+            return View(viewModel);
         }
 
         // GET: Movies/Edit/{id} || Movies/Edit?id={id}
