@@ -85,3 +85,4 @@ C:\Users\Tam\Documents\Projects\vidly\vidly\obj\Debug\vidly.csproj.GenerateResou
 C:\Users\Tam\Documents\Projects\vidly\vidly\obj\Debug\vidly.Migrations.AddIsSubscribedToCustomer.resources
 C:\Users\Tam\Documents\Projects\vidly\vidly\obj\Debug\vidly.Migrations.AddMembershipType.resources
 C:\Users\Tam\Documents\Projects\vidly\vidly\obj\Debug\vidly.Migrations.PopulateMembershipTypes.resources
+C:\Users\Tam\Documents\Projects\vidly\vidly\obj\Debug\vidly.Migrations.ApplyAnnotationsToCustomerName.resources
