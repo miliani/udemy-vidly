@@ -90,3 +90,11 @@ C:\Users\Tam\Documents\Projects\vidly\vidly\obj\Debug\vidly.Migrations.AddNameTo
 C:\Users\Tam\Documents\Projects\vidly\vidly\obj\Debug\vidly.Migrations.UpdateMembershipTypeNames.resources
 C:\Users\Tam\Documents\Projects\vidly\vidly\obj\Debug\vidly.Migrations.AddBirthDateToCustomers.resources
 C:\Users\Tam\Documents\Projects\vidly\vidly\obj\Debug\vidly.Migrations.MakeBirthDateNullable.resources
+C:\Users\Tam\Documents\Projects\vidly\vidly\obj\Debug\vidly.Migrations.AddMovieTable.resources
+C:\Users\Tam\Documents\Projects\vidly\vidly\obj\Debug\vidly.Migrations.AddMovieProperties.resources
+C:\Users\Tam\Documents\Projects\vidly\vidly\obj\Debug\vidly.Migrations.PopulateGenres.resources
+C:\Users\Tam\Documents\Projects\vidly\vidly\obj\Debug\vidly.Migrations.HopefullyFixGenreFaff.resources
+C:\Users\Tam\Documents\Projects\vidly\vidly\obj\Debug\vidly.Migrations.FixGenreFaffAttemptTwo.resources
+C:\Users\Tam\Documents\Projects\vidly\vidly\obj\Debug\vidly.Migrations.ReAddMovieTable.resources
+C:\Users\Tam\Documents\Projects\vidly\vidly\obj\Debug\vidly.Migrations.ReAddGenreTable.resources
+C:\Users\Tam\Documents\Projects\vidly\vidly\obj\Debug\vidly.Migrations.RePopulateGenres.resources

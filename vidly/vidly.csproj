@@ -239,8 +239,41 @@
     <Compile Include="Migrations\201708051517356_MakeBirthDateNullable.Designer.cs">
       <DependentUpon>201708051517356_MakeBirthDateNullable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201708051529243_AddMovieTable.cs" />
+    <Compile Include="Migrations\201708051529243_AddMovieTable.Designer.cs">
+      <DependentUpon>201708051529243_AddMovieTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201708051535291_AddMovieProperties.cs" />
+    <Compile Include="Migrations\201708051535291_AddMovieProperties.Designer.cs">
+      <DependentUpon>201708051535291_AddMovieProperties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201708051536058_PopulateGenres.cs" />
+    <Compile Include="Migrations\201708051536058_PopulateGenres.Designer.cs">
+      <DependentUpon>201708051536058_PopulateGenres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201708051602192_HopefullyFixGenreFaff.cs" />
+    <Compile Include="Migrations\201708051602192_HopefullyFixGenreFaff.Designer.cs">
+      <DependentUpon>201708051602192_HopefullyFixGenreFaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201708051604261_FixGenreFaffAttemptTwo.cs" />
+    <Compile Include="Migrations\201708051604261_FixGenreFaffAttemptTwo.Designer.cs">
+      <DependentUpon>201708051604261_FixGenreFaffAttemptTwo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201708051613322_ReAddMovieTable.cs" />
+    <Compile Include="Migrations\201708051613322_ReAddMovieTable.Designer.cs">
+      <DependentUpon>201708051613322_ReAddMovieTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201708051614259_ReAddGenreTable.cs" />
+    <Compile Include="Migrations\201708051614259_ReAddGenreTable.Designer.cs">
+      <DependentUpon>201708051614259_ReAddGenreTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201708051615202_RePopulateGenres.cs" />
+    <Compile Include="Migrations\201708051615202_RePopulateGenres.Designer.cs">
+      <DependentUpon>201708051615202_RePopulateGenres.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\ViewModels\CustomerDetailsViewModel.cs" />
     <Compile Include="Models\ViewModels\CustomerListViewModel.cs" />
@@ -248,6 +281,7 @@
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Movie.cs" />
+    <Compile Include="Models\ViewModels\MovieDetailsViewModel.cs" />
     <Compile Include="Models\ViewModels\MovieListViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -319,6 +353,7 @@
     <Content Include="Views\Movie\Index.cshtml" />
     <Content Include="Views\Customer\Index.cshtml" />
     <Content Include="Views\Customer\Details.cshtml" />
+    <Content Include="Views\Movie\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -358,6 +393,30 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201708051517356_MakeBirthDateNullable.resx">
       <DependentUpon>201708051517356_MakeBirthDateNullable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708051529243_AddMovieTable.resx">
+      <DependentUpon>201708051529243_AddMovieTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708051535291_AddMovieProperties.resx">
+      <DependentUpon>201708051535291_AddMovieProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708051536058_PopulateGenres.resx">
+      <DependentUpon>201708051536058_PopulateGenres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708051602192_HopefullyFixGenreFaff.resx">
+      <DependentUpon>201708051602192_HopefullyFixGenreFaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708051604261_FixGenreFaffAttemptTwo.resx">
+      <DependentUpon>201708051604261_FixGenreFaffAttemptTwo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708051613322_ReAddMovieTable.resx">
+      <DependentUpon>201708051613322_ReAddMovieTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708051614259_ReAddGenreTable.resx">
+      <DependentUpon>201708051614259_ReAddGenreTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708051615202_RePopulateGenres.resx">
+      <DependentUpon>201708051615202_RePopulateGenres.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
