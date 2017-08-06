@@ -271,6 +271,14 @@
     <Compile Include="Migrations\201708051615202_RePopulateGenres.Designer.cs">
       <DependentUpon>201708051615202_RePopulateGenres.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201708060935480_RequiredCustomerModelData.cs" />
+    <Compile Include="Migrations\201708060935480_RequiredCustomerModelData.Designer.cs">
+      <DependentUpon>201708060935480_RequiredCustomerModelData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201708061011451_NullableBirthDate.cs" />
+    <Compile Include="Migrations\201708061011451_NullableBirthDate.Designer.cs">
+      <DependentUpon>201708061011451_NullableBirthDate.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Genre.cs" />
@@ -278,6 +286,7 @@
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\Min18YearsIfMember.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Models\ViewModels\CustomerFormViewModel.cs" />
     <Compile Include="Models\ViewModels\MovieFormViewModel.cs" />
@@ -417,6 +426,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201708051615202_RePopulateGenres.resx">
       <DependentUpon>201708051615202_RePopulateGenres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708060935480_RequiredCustomerModelData.resx">
+      <DependentUpon>201708060935480_RequiredCustomerModelData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708061011451_NullableBirthDate.resx">
+      <DependentUpon>201708061011451_NullableBirthDate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
